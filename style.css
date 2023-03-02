@@ -29,4 +29,12 @@ body {
     border-radius: 55px;
     background: #ededed;
     box-shadow: -22px -22px 44px #bebebe, 22px 22px 44px #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#textBox {
+    margin-bottom: 10%;
 }
