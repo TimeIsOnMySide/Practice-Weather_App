@@ -14,6 +14,8 @@ html {
 /* CSS Project Styles */
 
 body {
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
     background-color: #ededed;
     height: 100vh;
     width: 100vw;
@@ -23,9 +25,12 @@ body {
     justify-content: center;
 }
 
-.main_container {
+#main_container {
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.4);
     height: 50vh;
     width: 50vw;
+    max-width: 300px;
+    max-height: 300px;
     border-radius: 55px;
     background: #ededed;
     box-shadow: -22px -22px 44px #bebebe, 22px 22px 44px #ffffff;
@@ -36,5 +41,52 @@ body {
 }
 
 #textBox {
-    margin-bottom: 10%;
+    margin-bottom: 8%;
+    background: #57bd84;
+    border-radius: .7rem;
+    width: 50vw;
+    max-width: 300px;
 }
+
+#location {
+    font-size: 3.5rem;
+}
+
+#temp {
+    font-size: 8rem;
+}
+
+#condition, #highLow {
+    font-size: 2rem;
+    padding-bottom: 3%;
+}
+
+input, button {
+    height: 5rem;
+    font-family: 'Lato', sans-serif;
+    border: none;
+    color: #2f2f2f;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    width: 80%;
+    background: #fff;
+    border-radius: .7rem 0 0 .7rem;
+    outline: 0;
+}
+
+button {
+    font-weight: bold;
+    background: #46cb7f;
+    border-radius: 0 .7rem .7rem 0;
+    width: 20%;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+  
