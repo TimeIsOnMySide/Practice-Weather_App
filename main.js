@@ -19,7 +19,7 @@ document.querySelector('button').addEventListener('click', getFetch);
 
 function getFetch(){
     const place = document.querySelector('input').value;
-    const url = `http://api.weatherapi.com/v1/forecast.json?key=5f429e3a30fa4a3e9ea43830232802&q=${place}`;
+    const url = `https://api.weatherapi.com/v1/forecast.json?key=5f429e3a30fa4a3e9ea43830232802&q=${place}`;
   
     fetch(url)
         .then(res => res.json()) // parse response as JSON
